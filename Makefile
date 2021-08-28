@@ -8,7 +8,7 @@ toolchain:
 	./scripts/init.sh
 
 build:
-	cargo build
+	cargo build --release
 
 check:
 	SKIP_WASM_BUILD= cargo check --all --tests
